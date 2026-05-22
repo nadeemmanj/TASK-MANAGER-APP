@@ -24,9 +24,9 @@ connectDB()
 
 
 
-app.get("/", (req,res) =>{
-    res.send("Hello World! how")
-})
+app.get("/", (req, res) => {
+  res.send("Backend Running");
+});
 
 
 app.use("/tasks",TaskRouter);
